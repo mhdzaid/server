@@ -1,0 +1,11 @@
+spring:
+  application:
+    name:
+      server
+server:
+  port: 8761
+
+eureka:
+  renewalPercentThreshold: 0.85
+  client:
+    register-with-eureka: false
